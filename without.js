@@ -34,3 +34,4 @@ const without = function (arr, toRemove) {
     return result;
 };
 
+without(["1", "2", "3"], [1, 2, "3"])
