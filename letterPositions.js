@@ -36,4 +36,8 @@ const letterPositions = function (sentence) {
 console.log(letterPositions("This is a test."))
 
 
+<<<<<<< HEAD
 assertArraysEqual(letterPositions("hello").e, [1]);
+=======
+assertArraysEqual(letterPositions("hello").e, [1]);
+>>>>>>> c242b66492058f760fd47f69e4b0157e80819cb8

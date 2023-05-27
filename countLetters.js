@@ -19,4 +19,8 @@ const countLetters = function (sentence) {
 const LetterCount = countLetters("This is a test.");
 console.log(LetterCount);
 
+<<<<<<< HEAD
 assertEqual(LetterCount["s"], 3);
+=======
+assertEqual(LetterCount["s"], 3);
+>>>>>>> c242b66492058f760fd47f69e4b0157e80819cb8
