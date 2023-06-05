@@ -34,8 +34,7 @@ let object = {
 };
 let actual1 = findKey(object, x => x.stars === 2);
 let expected1 = "noma";
-<<<<<<< HEAD
+
 assertEqual(actual1, expected1);
-=======
+
 assertEqual(actual1, expected1);
->>>>>>> c242b66492058f760fd47f69e4b0157e80819cb8
