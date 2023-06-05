@@ -18,17 +18,9 @@ const assertArraysEqual = function (array1, array2) {
     }
 };
 
-<<<<<<< HEAD
-const takeUntil = function (array, callback) {
-    let results = [];
-    for (let i = 0; i < array.length; i++) {
-        if (callback(array[i])) {
-            results = array.slice(0, i);
-            return results;
-        }
-    }
-    return results;
-=======
+
+
+
 const takeUntil = function(array, callback) {
   let results = [];
   for (let i = 0; i < array.length; i++) {
@@ -38,7 +30,7 @@ const takeUntil = function(array, callback) {
     }
   }
   return results;
->>>>>>> c242b66492058f760fd47f69e4b0157e80819cb8
+
 };
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 const results1 = takeUntil(data1, x => x < 0);
