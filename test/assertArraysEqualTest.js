@@ -3,4 +3,5 @@ const assertArraysEqual = require('../assertArraysEqual')
 const eqArrays = require('../eqArrays');
 
 
-console.log(middle([1, 2, 3])) // => [2]
+assertArraysEqual([1,2,3,4],[1,2,3,4]);
+assertArraysEqual([4,3,2,1],[1,2,3,4]);

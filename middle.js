@@ -19,6 +19,8 @@
    // return true;
 //};
 
+
+
 const middle = function (array) {
     if (array.length <= 2) {
 
