@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@syldrew/lotide",
   "version": "1.0.0",
-  "description": "LHL Lotide Project",
+  "description": "LHL Lotide Project.A mini clone of the [Lodash](https://lodash.com) library.",
 "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/syldrew/lotide.git"
   },
-  "author": "Silvia Chavez",
+  "author": "Silvia Chavez Meza",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/syldrew/lotide/issues"
