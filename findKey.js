@@ -38,3 +38,5 @@ let expected1 = "noma";
 assertEqual(actual1, expected1);
 
 assertEqual(actual1, expected1);
+
+module.exports = findKey;

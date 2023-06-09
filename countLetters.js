@@ -23,3 +23,6 @@ console.log(LetterCount);
 assertEqual(LetterCount["s"], 3);
 
 assertEqual(LetterCount["s"], 3);
+
+
+module.exports = countLetters;
