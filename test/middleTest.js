@@ -1,4 +1,3 @@
-//const assertArraysEqual = require('../assertArraysEqual');
 const assert = require('chai').assert;
 const middle = require('../middle');
 
@@ -9,4 +8,3 @@ describe("#middle", () => {
     });
   });
 
-//assertArraysEqual(middle([1, 2, 3, 4], [1, 2, 3, 4]), true);
