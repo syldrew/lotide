@@ -2,9 +2,7 @@
 
 A mini clone of the [Lodash](https://lodash.com) library.
 
-
 ## Purpose
-
 
 **_BEWARE:_ This library was published for learning purposes. It is _not_ intended for use in production-grade software.**
 
@@ -24,9 +22,7 @@ This project was created and published by me as part of my learnings at Lighthou
 
 `const results = _.tail([1, 2, 3]) // => [2, 3]`
 
-
 ## Documentation
-
 
 The following functions are currently implemented:
 
@@ -58,7 +54,7 @@ map(array, callback): a function that takes in an array and a callback and retur
 
 middle(firstArray):a function that takes in an array and returns middle most element of the array.
 
-tail(arr): functin that takes in an array, removes arr[0] and returns the rest.
+tail(arr): a function that takes in an array, removes arr[0] and returns the rest.
 
 takeUntil(array, callback): a function that takes in an array and callback and returns a slice of the array based on the criteria specified in the callback.
 
